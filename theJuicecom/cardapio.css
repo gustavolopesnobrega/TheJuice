@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300&family=Righteous&family=Roboto&family=Roboto+Mono:wght@200&family=Sarala&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    
+   
+}
+a { color: inherit; 
+    text-decoration: none;
+} 
+a:link {
+    color: white;
+ }
+
+ .nav-bar {
+    position: fixed;
+    width: 100%;
+}
+ .logo-thejuice {
+    color: white;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px ;
+    background-color: black;
+    
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 400px;
+    
+}
+
+
+
+.unidades {
+    width: 467px;
+    border-radius: 6px;
+    font-size: 16px;
+    height: 28px;
+    margin: 40px 300px 40px 280px ;
+    padding-left: 10px;
+}
+.the-menu-section{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 220px;
+}
+.the-menu {
+    font-size: 28px;
+    margin-left: 26px;
+    margin-bottom: 40px;
+    width: 162px;
+    font-weight: 600;
+    display: flex;
+    justify-content: end;
+}
+.showed-city {
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-top: 8px;
+    width: 180px;
+}
+.unidades-section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 120px;
+}
+
+.input-section-location{
+    padding-right: 60px;
+    padding-top: 6px;
+}
+.input-section-location option{
+    width: 150px;
+    
+   
+}
+.input-section-location select {
+    width: 467px;
+    margin-left: 230px;
+    
+   
+}
+#linha-horizontal {
+    width: 100%;
+    border:  0.5px solid rgba(0, 0, 0, 0.2);
+}
+#linha-horizontal-tradicionais {
+    width: 70%;
+    border:  0.5px solid rgba(0, 0, 0, 0.4);
+    margin-top: 70px;
+    
+}
+section {
+    display: flex;
+    flex-direction: row;
+    padding-right: 160px;
+    padding-bottom: 60px;
+    width: 1997px;
+    margin-left: 250px;
+}
+.sucos-tradicionais {
+    width: 500px;
+    height: 90px;
+    margin-left: 10px;
+}
+.sucos-tradicionais h3 {
+    
+    height: 20px;
+   
+}
+.tradicionais-item1 {
+    height: 180px;
+    width: 500px;
+}
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 68px;
+    margin-right: 330px;
+    margin-top: 100px;
+    margin-left: 360px;
+    width: 300px;
+    font-weight: 600;
+}
+.produtos-section {
+    width: 550px;
+    height: 900px;
+    max-height: 600px;
+    overflow-x: auto;
+    margin-top: 60px;
+    padding-right: 100px    ;
+    padding-bottom: 60px;
+   
+    
+}
+.tradicionais-item1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 14px;
+    
+}
+.suco1-description {
+    margin-left: 60px;
+}
+.suco1-description h4 {
+    font-size: 20px;
+    
+}
+.suco1-description h5 {
+    font-weight: 400;
+    
+    
+}
+.suco1-description a{ 
+    font-weight: 300;
+
+    
+}
+.suco1-description a:hover{ 
+    font-weight: 600;
+    color: green;
+    
+}
+.suco1-price {
+    margin-left: 100px;
+    margin-top: 25px
+}
+
+ /*scroll bar customized */
+ *::-webkit-scrollbar {
+    width: 12px;
+    
+    
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(223, 223, 223);
+    
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid rgb(223, 223, 223);
+  }
+  
+
+
+@media screen and (max-width: 1200px) {
+    .unidades-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .the-menu-section {
+        margin-top: 0px;
+        padding-bottom: 0px;
+        height: 40px;
+        
+    }
+    .input-section-location {
+        height: 80px;
+    }
+    .menu-items {
+        
+        width: 180px;
+        
+    }
+}
